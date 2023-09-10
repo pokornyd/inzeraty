@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Macbookárna | generátor inzerátů</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="./javascripts/processOfferForBazos.js"></script>
+    <script src="./javascripts/processOfferForSbazar.js"></script>
+    <script src="./javascripts/generateOffer.js"></script>
+</head>
+<body>
+    <h1>Macbookárna</h1>
+    <h3>generátor inzerátů v0.0.1</h3>
+    <br>
+    <details>
+        <summary>Jak to funguje?</summary>
+        <ul>
+            <li>do pole níže vlož URL inzerátů z macbookarny, oddělené čárkou, nebo na samostatných řádcích</li>
+            <li>zmáčkni tlačítko <strong>Načti</strong></li>
+            <li>počkej chvíli, podle počtu inzerátů to může nějakou dobu trvat...</li>
+            <li>pro každý inzerát by se měl vygenerovat samostatný objekt, zkontroluj, jestli jsou data správná</li>
+            <li>pomocí tlačítka vygeneruj kód pro příslušnou inzerční službu</li>
+            <li>přepni na panel s formulářem pro vložení inzerátu, otevři konzoli a vlož do ní zkopírovaný kód, odentruj</li>
+            <li>zkontroluj, zda se data správně vyplnily</li>
+            <li>???</li>
+            <li>PROFIT</li>
+        </ul>
+    </details>
+    <br>
+    <textarea id="urls" rows="5"></textarea>
+    <button class="button fetchButton" onclick="generateOffer()">Načti</button>
+    <div id="results"></div>
+</body>
+</html>

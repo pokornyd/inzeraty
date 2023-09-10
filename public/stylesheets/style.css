@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+#urls {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.codeBox {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.textAreaCaption {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.textArea {
+  flex-grow: 1;
+  min-height: 150px;
+  margin-right: 15px;
+  resize: vertical;
+  width: 100%;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.flexArea {
+  display: flex;
+  align-items: flex-start;
+}
+.flexColumnArea {
+  display: flex;
+  flex-direction: column;
+}
+.centered {
+  align-items: center;
+}
+.push {
+  margin-left: auto;
+}
+.copyButton {
+  background-color: #226f24;
+  height: 100%;
+}
+.fetchButton {
+  background-color: rgb(25, 136, 167);
+}
+.bazButton {
+  background-color: rgb(170, 50, 50);
+  width: 100%;
+}
+.imagesButton {
+  background-color: rgb(36, 19, 112);
+  width: 100%;
+}
+.sezButton {
+  background-color: rgb(109, 104, 14);
+  width: 100%;
+}
+.button:hover {
+  opacity: 0.8;
+}
